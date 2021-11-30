@@ -1,0 +1,116 @@
+#header{
+    width: 100%;
+    height: 170px;
+    text-align: right;
+    background-image: url(images/reca2.jpg);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+h1{
+    display: inline-block;
+    
+    margin-right: 120px;
+    vertical-align: top;
+}
+.inlinblock{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.li{
+    text-align: center;
+    background-color: #000;
+    display: inline-block;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+nav{
+    margin-top: 45px;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    margin: auto;
+    width: 100%;
+    height: 5000px;
+    direction: rtl;
+    background-color: blanchedalmond;
+}
+#div1{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(100, 99, 10);
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    background-image: url(images/shcia1.jpg);
+    background-size: 100% 100%;
+    animation: anim1 ease-in-out 15s infinite;
+}
+@keyframes anim1{
+    0%{
+        background-image: url(images/shcia1.jpg); 
+    }
+    33%{
+        background-image: url(images/shcia2.jpg); 
+    }
+    66%{
+        background-image: url(images/shcia3.jpg); 
+    }
+    100%{
+        background-image: url(images/shcia1.jpg); 
+    }
+}
+#div2{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(100, 99, 10);
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    background-color: brown;
+}
+#tt{
+    font-size: 3rem;
+    color: red;
+}
+section{
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+}
+aside{
+    width: 20%;
+    height: 800px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 30px;
+}
+li:hover{
+    background-color: brown;
+}
+#input{
+    display: none;
+}
+#b1{
+    width: 160px;
+    height: 25px;
+}
+#fixed1{
+    color: red;
+    width: 200px;
+    height: 100px;
+    margin-top: 200px;
+    margin-right: auto;
+    position: fixed;
+}
