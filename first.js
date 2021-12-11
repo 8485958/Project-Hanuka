@@ -17,7 +17,7 @@ while(true)
     document.getElementById("submit").onclick = function(){
         mesimot[i]="oo";
     }
-    alert(mesimot[i]);
+    alert("mesimot[i]");
     i++;
     if(i>5)
     break;
